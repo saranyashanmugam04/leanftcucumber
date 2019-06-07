@@ -1,0 +1,178 @@
+<Results>
+    <GeneralInfo>
+        <Name/>
+        <RunStartTime>2019-06-07 13:14:55</RunStartTime>
+        <Timezone>India Standard Time</Timezone>
+        <OrchestrationToolName>JUnit</OrchestrationToolName>
+        <OrchestrationToolVersion/>
+        <ReportTitle>LeanFT Report</ReportTitle>
+    </GeneralInfo>
+    <ReportNode type="Run">
+        <Data>
+            <Name>Run Results</Name>
+            <Description><![CDATA[ ]]></Description>
+            <StartTime>2019-06-07 13:14:55</StartTime>
+            <Result>Passed</Result>
+            <Links/>
+            <Duration>2</Duration>
+            <Extension>
+                <Any>
+                    <IconKey>Run</IconKey>
+                    <IsHtmlErrorText>true</IsHtmlErrorText>
+                </Any>
+            </Extension>
+            <Environment>
+                <OSInfo><![CDATA[Microsoft Windows NT 6.2.9200.0]]></OSInfo>
+                <HostName><![CDATA[CDC2-LX-1MX6QQ2]]></HostName>
+                <NumberOfCores>8</NumberOfCores>
+                <CpuInfo/>
+                <TotalMemory>16265</TotalMemory>
+                <Locale><![CDATA[en-US]]></Locale>
+                <Timezone>India Standard Time</Timezone>
+                <User><![CDATA[saranya.a.shanmugam]]></User>
+            </Environment>
+            <TestedApplication/>
+            <ToolName>LeanFT</ToolName>
+            <ToolVersion><![CDATA[14.02]]></ToolVersion>
+        </Data>
+        <ReportNode type="Package">
+            <Data>
+                <Name>LeanFTCucumber</Name>
+                <Description><![CDATA[Version: N/A]]></Description>
+                <StartTime>2019-06-07 13:14:56</StartTime>
+                <Result>Passed</Result>
+                <Links/>
+                <Duration>1</Duration>
+                <Extension>
+                    <Any>
+                        <IconKey>Package</IconKey>
+                        <IsHtmlErrorText>true</IsHtmlErrorText>
+                    </Any>
+                </Extension>
+            </Data>
+            <ReportNode type="Class">
+                <Data>
+                    <Name><![CDATA[LeanFTCucumber.LeanFtTest]]></Name>
+                    <Description/>
+                    <StartTime>2019-06-07 13:14:56</StartTime>
+                    <Result>Passed</Result>
+                    <Links/>
+                    <Duration>1</Duration>
+                    <Extension>
+                        <Any>
+                            <IconKey>Class</IconKey>
+                            <IsHtmlErrorText>true</IsHtmlErrorText>
+                        </Any>
+                    </Extension>
+                </Data>
+                <ReportNode type="Feature">
+                    <Data>
+                        <Name><![CDATA[<b>Feature: </b>TestMe Login Test]]></Name>
+                        <Description/>
+                        <StartTime>2019-06-07 13:14:56</StartTime>
+                        <Result>Passed</Result>
+                        <Links/>
+                        <Duration>1</Duration>
+                        <Extension>
+                            <Any>
+                                <IconKey>Feature</IconKey>
+                                <IsHtmlErrorText>true</IsHtmlErrorText>
+                            </Any>
+                        </Extension>
+                    </Data>
+                    <ReportNode type="Scenario">
+                        <Data>
+                            <Name><![CDATA[<b>Scenario: </b>Login Valid Test]]></Name>
+                            <Description/>
+                            <StartTime>2019-06-07 13:14:56</StartTime>
+                            <Result>Passed</Result>
+                            <Links/>
+                            <Duration>1</Duration>
+                            <Extension>
+                                <Any>
+                                    <IconKey>Scenario</IconKey>
+                                    <IsHtmlErrorText>true</IsHtmlErrorText>
+                                </Any>
+                            </Extension>
+                        </Data>
+                        <ReportNode type="CucumberStep">
+                            <Data>
+                                <Name><![CDATA[<b>Given </b>user opens testme application]]></Name>
+                                <Description/>
+                                <StartTime>2019-06-07 13:14:56</StartTime>
+                                <Result>Passed</Result>
+                                <Links/>
+                                <Duration>1</Duration>
+                                <Extension>
+                                    <Any>
+                                        <IsHtmlErrorText>true</IsHtmlErrorText>
+                                    </Any>
+                                </Extension>
+                            </Data>
+                        </ReportNode>
+                        <ReportNode type="CucumberStep">
+                            <Data>
+                                <Name><![CDATA[<b>When </b>user enter valid username]]></Name>
+                                <Description/>
+                                <StartTime>2019-06-07 13:14:57</StartTime>
+                                <Result>Passed</Result>
+                                <Links/>
+                                <Duration>0</Duration>
+                                <Extension>
+                                    <Any>
+                                        <IsHtmlErrorText>true</IsHtmlErrorText>
+                                    </Any>
+                                </Extension>
+                            </Data>
+                        </ReportNode>
+                        <ReportNode type="CucumberStep">
+                            <Data>
+                                <Name><![CDATA[<b>When </b>user enter valid password]]></Name>
+                                <Description/>
+                                <StartTime>2019-06-07 13:14:57</StartTime>
+                                <Result>Passed</Result>
+                                <Links/>
+                                <Duration>1</Duration>
+                                <Extension>
+                                    <Any>
+                                        <IsHtmlErrorText>true</IsHtmlErrorText>
+                                    </Any>
+                                </Extension>
+                            </Data>
+                        </ReportNode>
+                        <ReportNode type="CucumberStep">
+                            <Data>
+                                <Name><![CDATA[<b>When </b>user clicks login]]></Name>
+                                <Description/>
+                                <StartTime>2019-06-07 13:14:57</StartTime>
+                                <Result>Passed</Result>
+                                <Links/>
+                                <Duration>0</Duration>
+                                <Extension>
+                                    <Any>
+                                        <IsHtmlErrorText>true</IsHtmlErrorText>
+                                    </Any>
+                                </Extension>
+                            </Data>
+                        </ReportNode>
+                        <ReportNode type="CucumberStep">
+                            <Data>
+                                <Name><![CDATA[<b>Then </b>verify login success]]></Name>
+                                <Description/>
+                                <StartTime>2019-06-07 13:14:57</StartTime>
+                                <Result>Passed</Result>
+                                <Links/>
+                                <Duration>1</Duration>
+                                <Extension>
+                                    <Any>
+                                        <IsHtmlErrorText>true</IsHtmlErrorText>
+                                    </Any>
+                                </Extension>
+                            </Data>
+                        </ReportNode>
+                    </ReportNode>
+                </ReportNode>
+            </ReportNode>
+        </ReportNode>
+    </ReportNode>
+</Results>
