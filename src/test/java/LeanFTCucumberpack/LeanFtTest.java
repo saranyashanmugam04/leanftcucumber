@@ -16,7 +16,7 @@ import com.hp.lft.sdk.*;
 import com.hp.lft.verifications.*;
 
 @RunWith(Cucumber.class)
-@CucumberOptions(plugin = {"com.hp.lft.report.CucumberReporter"},
+@CucumberOptions(plugin = {"json:target/cucumber.json"},
                  features = "src/test/java/LeanFTCucumberpack")
 public class LeanFtTest extends UnitTestClassBase {
 
